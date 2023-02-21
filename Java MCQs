@@ -1,0 +1,592 @@
+1) The default value of a static integer variable of a class in Java is,
+
+(a) 0 (b) 1 (c) Garbage value (d) Null (e) -1.
+
+A) a
+
+
+
+2) What will be printed as the output of the following program?
+
+public class testincr
+{
+public static void main(String args[])
+{
+int i = 0;
+i = i++ + i;
+System.out.println(“I = ” +i);
+}
+}
+
+(a) I = 0 (b) I = 1 (c) I = 2 (d) I = 3 (e) Compile-time Error.
+
+A) b
+
+
+3) Multiple inheritance means,
+
+(a) one class inheriting from more super classes
+(b) more classes inheriting from one super class
+(c) more classes inheriting from more super classes
+(d) None of the above
+(e) (a) and (b) above.
+
+A) a
+
+
+
+4) Which statement is not true in java language?
+
+(a) A public member of a class can be accessed in all the packages.
+(b) A private member of a class cannot be accessed by the methods of the same class.
+(c) A private member of a class cannot be accessed from its derived class.
+(d) A protected member of a class can be accessed from its derived class.
+(e) None of the above.
+
+A) b
+
+
+5) To prevent any method from overriding, we declare the method as,
+
+(a) static (b) const (c) final (d) abstract (e) none of the above.
+
+A) c
+
+
+6) Which one of the following is not true?
+
+(a) A class containing abstract methods is called an abstract class.
+(b) Abstract methods should be implemented in the derived class.
+(c) An abstract class cannot have non-abstract methods.
+(d) A class must be qualified as ‘abstract’ class, if it contains one abstract method.
+(e) None of the above.
+
+A) c
+
+
+7) The fields in an interface are implicitly specified as,
+
+(a) static only (b) protected (c) private
+(d) both static and final (e) none of the above.
+
+d)
+
+
+8) What is the output of the following program:
+
+public class testmeth
+{
+static int i = 1;
+public static void main(String args[])
+{
+System.out.println(i+” , “);
+m(i);
+System.out.println(i);
+}
+public void m(int i)
+{
+i += 2;
+}
+}
+
+(a) 1 , 3 (b) 3 , 1 (c) 1 , 1 (d) 1 , 0 (e) none of the above.
+
+A) c
+
+9) Which of the following is not true?
+
+(a) An interface can extend another interface.
+(b) A class which is implementing an interface must implement all the methods of the interface.
+(c) An interface can implement another interface.
+(d) An interface is a solution for multiple inheritance in java.
+(e) None of the above.
+
+A) c
+
+10) Which of the following is true?
+
+(a) A finally block is executed before the catch block but after the try block.
+(b) A finally block is executed, only after the catch block is executed.
+(c) A finally block is executed whether an exception is thrown or not.
+(d) A finally block is executed, only if an exception occurs.
+(e) None of the above.
+
+A) c
+
+Java Multiple Choice Questions And Answers For Experienced
+11) Among these expressions, which is(are) of type String?
+
+(a) “0” (b) “ab” + “cd”
+(c) ‘0’
+(d) Both (A) and (B) above (e) (A), (B) and (C) above.
+
+A) d
+
+12) Consider the following code fragment
+Rectangle r1 = new Rectangle();
+r1.setColor(Color.blue);
+Rectangle r2 = r1;
+r2.setColor(Color.red);
+
+After the above piece of code is executed, what are the colors of r1 and
+r2 (in this order)?
+
+(a) Color.blue
+Color.red
+(b) Color.blue
+Color.blue
+(c) Color.red
+Color.red
+(d) Color.red
+Color.blue
+(e) None of the above.
+
+A) c
+
+13) What is the type and value of the following expression? (Notice the integer division)
+-4 + 1/2 + 2*-3 + 5.0
+
+(a) int -5 (b) double -4.5
+(c) int -4
+(d) double -5.0 (e) None of the above.
+
+A) d
+
+14) What is printed by the following statement?
+System.out.print(“Hello,\nworld!”);
+
+(a) Hello, \nworld! (b) Hello, world!
+(c)
+(d) “Hello, \nworld!” (e) None of the above.
+
+A) c
+
+15) Consider the two methods (within the same class)
+public static int foo(int a, String s)
+{
+s = “Yellow”;
+a=a+2;
+return a;
+}
+public static void bar()
+{
+int a=3;
+String s = “Blue”;
+a = foo(a,s);
+System.out.println(“a=”+a+” s=”+s);
+}
+public static void main(String args[])
+{
+bar();
+}
+
+What is printed on execution of these methods?
+
+(a) a = 3 s = Blue (b) a = 5 s = Yellow (c) a = 3 s = Yellow
+(d) a = 5 s = Blue (e) none of the above.
+
+A) d
+
+16) Which of the following variable declaration would NOT compile in a java program?
+
+(a) int var; (b) int VAR; (c) int var1; (d) int var_1; (e) int 1_var;.
+
+A) e
+
+17) Consider the following class definition:
+
+public class MyClass
+{
+private int value;
+public void setValue(int i){ / code / }
+// Other methods…
+}
+
+The method setValue assigns the value of i to the instance field value. What could you write for the implementation of setValue?
+
+(a) value = i; (b) this.value = i; (c) value == i;
+(d) Both (A) and (B) and above (e) (A), (B) and (C) above.
+
+A) d
+
+18) Which of the following is TRUE?
+
+(a) In java, an instance field declared public generates a compilation error.
+(b) int is the name of a class available in the package java.lang
+(c) Instance variable names may only contain letters and digits.
+(d) A class has always a constructor (possibly automatically supplied by the java compiler).
+(e) The more comments in a program, the faster the program runs.
+
+A) d
+
+19) A constructor
+
+(a) Must have the same name as the class it is declared within.
+(b) Is used to create objects.
+(c) May be declared private
+(d) Both (A) and (B) above
+(e) (a), (b) and (c) above.
+
+A) e
+
+20) Consider,
+
+public class MyClass
+{
+public MyClass(){/code/}
+// more code…
+}
+
+To instantiate MyClass, you would write?
+
+(a) MyClass mc = new MyClass();
+(b) MyClass mc = MyClass();
+(c) MyClass mc = MyClass;
+(d) MyClass mc = new MyClass;
+(e) The constructor of MyClass should be defined as, public void MyClass(){/code/}.
+
+A) a
+
+Java Programming Multiple Choice Questions
+Java Multiple Choice Questions 21) What is byte code in the context of Java?
+
+(a) The type of code generated by a Java compiler.
+(b) The type of code generated by a Java Virtual Machine.
+(c) It is another name for a Java source file.
+(d) It is the code written within the instance methods of a class.
+(e) It is another name for comments written within a program.
+
+A) a
+
+Java Multiple Choice Questions 22) What is garbage collection in the context of Java?
+
+(a) The operating system periodically deletes all the java files available on the system.
+(b) Any package imported in a program and not used is automatically deleted.
+(c) When all references to an object are gone, the memory used by the object is automatically reclaimed.
+(d) The JVM checks the output of any Java program and deletes anything that doesn’t make sense.
+(e) Janitors working for Sun Micro Systems are required to throw away any Microsoft documentation found in the employees’ offices.
+
+A) c
+
+Java Multiple Choice Questions 23) You read the following statement in a Java program that compiles and executes.
+submarine.dive(depth);
+
+What can you say for sure?
+
+(a) depth must be an int
+(b) dive must be a method.
+(c) dive must be the name of an instance field.
+(d) submarine must be the name of a class
+(e) submarine must be a method.
+
+A) b
+
+Java Multiple Choice Questions 24) The java run time system automatically calls this method while garbage collection.
+
+(a) finalizer() (b) finalize() (c) finally()
+(d) finalized() (e) none of the above.
+
+A) b
+
+Java Multiple Choice Questions 25) The correct order of the declarations in a Java program is,
+
+(a) Package declaration, import statement, class declaration
+(b) Import statement, package declaration, class declaration
+(c) Import statement, class declaration, package declaration
+(d) Class declaration, import statement, package declaration
+(e) Class declaration, package declaration, import statement.
+
+A) a
+
+Java Multiple Choice Questions 26) An overloaded method consists of,
+
+(a) The same method name with different types of parameters
+(b) The same method name with different number of parameters
+(c) The same method name and same number and type of parameters with different return type
+(d) Both (a) and (b) above
+(e) (a), (b) and (c) above.
+
+A) d
+
+Java Multiple Choice Questions 27) A protected member can be accessed in,
+
+(a) a subclass of the same package (b) a non-subclass of the same package
+(c) a non-subclass of different package (d) a subclass of different package
+(e) the same class.
+
+Which is the false option?
+
+A) c
+
+Java Multiple Choice Questions 28) What is the output of the following code:
+
+class eq
+{
+public static void main(String args[])
+{
+String s1 = “Hello”;
+String s2 = new String(s1);
+System.out.println(s1==s2);
+}
+}
+
+(a) true (b) false (c) 0 (d) 1 (e) Hello.
+
+A) b
+
+Java Multiple Choice Questions 29) All exception types are subclasses of the built-in class
+
+(a) Exception (b) RuntimeException (c) Error
+(d) Throwable (e) None of the above.
+
+A) d
+
+Java Multiple Choice Questions 30) When an overridden method is called from within a subclass, it will always refer to the version of that method defined by the
+
+(a) Super class
+(b) Subclass
+(c) Compiler will choose randomly
+(d) Interpreter will choose randomly
+(e) None of the abvove.
+
+A) b
+
+Java Multiple Choice Questions With Answers
+Java Multiple Choice Questions 31) Mark the incorrect statement from the following:
+
+(a) Java is a fully object oriented language with strong support for proper software engineering techniques
+(b) In java it is not easy to write C-like so called procedural programs
+(c) In java language objects have to be manipulated
+(d) In java language error processing is built into the language
+(e) Java is not a language for internet programming.
+
+A) d
+
+Java Multiple Choice Questions 32) In java, objects are passed as
+
+(a) Copy of that object (b) Method called call by value
+(c) Memory address (d) Constructor
+(e) Default constructor.
+
+A) c
+
+Java Multiple Choice Questions 33) Which of the following is not a component of Java Integrated Development Environment (IDE)?
+
+(a) Net Beans (b) Borland’s Jbuilder
+(c) Symantec’s Visual Café (d) Microsoft Visual Fox Pro
+(e) Microsoft Visual J++.
+
+A) c
+
+Java Multiple Choice Questions 34) Identify, from among the following, the incorrect variable name(s).
+
+(a) _theButton (b) $reallyBigNumber
+(c) 2ndName (d) CurrentWeatherStateofplanet
+(e) my2ndFont.
+
+A) c
+
+Java Multiple Choice Questions 35) Use the following declaration and initialization to evaluate the Java expressions
+
+int a = 2, b = 3, c = 4, d = 5;
+float k = 4.3f;
+
+System.out.println( – -b * a + c *d – -);
+
+(a) 21 (b) 24 (c) 28 (d) 26 (e) 22.
+
+A) b
+
+Java Multiple Choice Questions 36) Use the following declaration and initialization to evaluate the Java expressions
+
+int a = 2, b = 3, c = 4, d = 5;
+float k = 4.3f;
+
+System.out.println(a++);
+
+(a) 3 (b) 2 (c) 4 (d) 10 (e) Synatax error.
+
+A) b
+
+Java Multiple Choice Questions 37) Use the following declaration and initialization to evaluate the Java expressions
+
+int a = 2, b = 3, c = 4, d = 5;
+float k = 4.3f;
+
+System.out.println (-2U * ( g – k ) +c);
+
+(a) 6 (b) 3 (c) 2 (d) 1 (e) Syntax error.
+
+A) e
+
+Java Multiple Choice Questions 38) Use the following declaration and initialization to evaluate the Java expressions
+
+int a = 2, b = 3, c = 4, d = 5;
+float k = 4.3f;
+
+System.out.println (c=c++);
+
+(a) 2 (b) 4 (c) 5 (d) 8 (e) Syntax error.
+
+A) b
+
+Java Multiple Choice Questions 39) Consider the following Java program :
+
+class IfStatement{
+public static void main(String args[])
+{
+int a=2, b=3;
+if (a==3)
+if (b==3)
+System.out.println(“===============”);
+else
+System.out.println(“#################”);
+System.out.println(“&&&&&&&&&&&”);
+}
+}
+
+Which of the following will the output be?
+
+(a) ===============
+(b) #################
+&&&&&&&&&
+(c) &&&&&&&&&&&
+(d) ===============
+#################
+&&&&&&&&&&
+(e) ################.
+
+A) c
+
+Java Multiple Choice Questions 40) An applet cannot be viewed using
+
+(a) Netscape navigator
+(b) Microsoft Internet Explorer
+(c) Sun’ Hot Java Browser
+(d) Applet viewer tool which comes, with the Java Development Kit.
+(e) Jbuilder.
+
+A) d
+
+Use the following Java program for answering question 11 and 12
+class test{
+void meth(int i, int j)
+{
+i *= 2;
+i /= 2;
+}
+}
+
+class argumentPassing
+{
+public static void main(String args[])
+{
+test ob = new test();
+int a = 15, b = 20;
+
+System.out.println(“a and b before call :”+ a +” ” + b);
+ob.meth(a,b);
+System.out.println(“a and b after call : “+ a + ” ” +b);
+}
+
+Core Java Multiple Choice Questions With Answers
+41) What would the output be of the above Program – III before and after it is called?
+
+(a) and b before call : 15 20 a and b after call : 30 10
+(b) a and b before call : 5 2 a and b after call : 15 20
+(c) a and b before call : 15 20 a and b after call : 15 20
+(d) a and b before call : 30 10 a and b after call : 15 20
+(e) a and b before call : 15 20 a and b after call :
+
+A) c
+
+42) What would the argument passing method be which is used by the above Program – III?
+
+(a) Call by value (b) Call by reference
+(c) Call by java.lang class (d) Call by byte code
+(e) Call by compiler.
+
+A) a
+
+43) Consider the following program:
+
+class prob1{
+int puzzel(int n){
+
+int result;
+
+if (n==1)
+return 1;
+result = puzzel(n-1) * n;
+return result;
+}
+}
+
+class prob2{
+
+public static void main(String args[])
+
+{
+
+prob1 f = new prob1();
+
+System.out.println(” puzzel of 6 is = ” + f.puzzel(6));
+
+}
+}
+
+Which of the following will be the output of the above program?
+
+(a) 6 (b) 120 (c) 30 (d) 720 (e) 12.
+
+A) d
+
+44) The blank space in the following sentence has to be correctly filled :
+
+Members of a class specified as ……………….. are accessible only to methods of that class.
+
+(a) Protected (b) Final (c) Public (d) Private (e) Static.
+
+A) d
+
+45) Java compiler javac translates Java source code into ………………………
+
+(a) Assembler language (b) Byte code
+(c) Bit code (d) Machine code
+(e) Platform dependent code.
+
+A) b
+
+46) ……………….. are used to document a program and improve its readability.
+
+(a) System cells (b) Keywords (c) Comments (d) Control structures (e) Blocks.
+
+A) c
+
+47) In Java, a character constant’s value is its integer value in the ………………………character set.
+
+(a) EBCDIC (b) Unicode (c) ASCII (d) Binary (e) BCD.
+
+A) b
+
+48) In Java, a try block should immediately be followed by one or more ……………….. blocks.
+
+(a) Throw (b) Run (c) Exit (d) Catch (e) Error.
+
+A) d
+
+49) An abstract data type typically comprises a …………… and a set of ……………… respectively.
+
+(a) Data representation, classes (b) Database, operations
+(c) Data representation, objects (d) Control structure, operations
+(e) Data representation, operations.
+
+A) e
+
+50) In object-oriented programming, the process by which one object acquires the properties of another object is called
+
+(a) Encapsulation (b) Polymorphism (c) Overloading
+(d) Inheritance (e) Overriding.
+
+A) d
+
